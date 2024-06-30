@@ -105,5 +105,5 @@
 *.smime
 *.vsix
 
-*env/
+*.env/
 *.flowise-vol/

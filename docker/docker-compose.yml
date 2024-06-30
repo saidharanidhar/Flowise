@@ -37,7 +37,7 @@ x-service-flowise: &x-service-flowise
 services:
     s1:
         <<: *x-service-flowise
-        env_file: "./env/s1.env"
+        env_file: "./.env/s1.env"
         ports:
             - '54000:3000'
         volumes:
